@@ -1,0 +1,65 @@
+/* font-family: "MontserratRegular"; */
+@font-face {
+	font-family: "MontserratRegular";
+	src: url("../fonts/MontserratRegular/MontserratRegular.eot");
+	src: url("../fonts/MontserratRegular/MontserratRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratRegular/MontserratRegular.woff") format("woff"),
+	url("../fonts/MontserratRegular/MontserratRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MontserratLight"; */
+@font-face {
+	font-family: "MontserratLight";
+	src: url("../fonts/MontserratLight/MontserratLight.eot");
+	src: url("../fonts/MontserratLight/MontserratLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratLight/MontserratLight.woff") format("woff"),
+	url("../fonts/MontserratLight/MontserratLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "MontserratSemiBold"; */
+@font-face {
+	font-family: "MontserratSemiBold";
+	src: url("../fonts/MontserratSemiBold/MontserratSemiBold.eot");
+	src: url("../fonts/MontserratSemiBold/MontserratSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MontserratSemiBold/MontserratSemiBold.woff") format("woff"),
+	url("../fonts/MontserratSemiBold/MontserratSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "PoppinsLight"; */
+@font-face {
+	font-family: "PoppinsLight";
+	src: url("../fonts/PoppinsLight/PoppinsLight.eot");
+	src: url("../fonts/PoppinsLight/PoppinsLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PoppinsLight/PoppinsLight.woff") format("woff"),
+	url("../fonts/PoppinsLight/PoppinsLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "ProximaNovaLight"; */
+@font-face {
+	font-family: "ProximaNovaLight";
+	src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot");
+	src: url("../fonts/ProximaNovaLight/ProximaNovaLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaLight/ProximaNovaLight.woff") format("woff"),
+	url("../fonts/ProximaNovaLight/ProximaNovaLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* font-family: "PoppinsRegular"; */
+@font-face {
+	font-family: "PoppinsRegular";
+	src: url("../fonts/PoppinsRegular/PoppinsRegular.eot");
+	src: url("../fonts/PoppinsRegular/PoppinsRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/PoppinsRegular/PoppinsRegular.woff") format("woff"),
+	url("../fonts/PoppinsRegular/PoppinsRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

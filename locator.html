@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+
+        <link rel="shortcut icon" href="">
+
+        <title>MatressKings</title>
+
+        <!-- CSS Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" rel="stylesheet"  />
+        <!-- CSS for pages -->
+        <link rel="stylesheet" type="text/css" href="assets/css/fonts.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!-- JS jQuery -->
+        <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+        <!-- JS Bootstrap -->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <!-- Functions -->
+        <script type="text/javascript" src="assets/js/app.js"></script>
+    </head>
+
+    <body>
+
+    <!-- Header for mobile version -->
+    <div class="mobile-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <a href="index.html"><img src="assets/images/logo.png" alt="MobileLogo" class="mobile-logo" /></a>
+                </div>
+                <div class="col-xs-6">
+                    <div class="mobile-position">
+                        <img src="assets/images/search.png" alt="MobileSearch" class="mobile-search">
+                        <img src="assets/images/buy.png" alt="MobileBuy" class="img-b" /><span class="buy-mob">10</span>
+                        <img src="assets/images/menu.png" alt="MobileMenu" class="mob-menu toggleBtn" />
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <div id="menu" class="menu-ul">
+        <img src="assets/images/new-menu.png" alt="Menu" class="close-menu" />
+        <div class="menu-info">
+            <div><p>Sign in</p></div>
+            <div><p><a href="locator.html">Store locator</a></p></div>
+            <div><img src="assets/images/new-phone.png" alt="Phone" /><span class="phone-mob">877-348-2998</span></div>
+        </div>
+        <hr class="line">
+        <ul id="accordion" class="accordion">
+          <li>
+            <div class="link">Mattresses<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu">
+              <li><a class="link1">Size<span><img class="blue" alt="Blue" /></span></a>
+                <ul class="submenu1">
+                    <li><a href="">Twin</a></li>
+                    <li><a href="">Twin XL</a></li>
+                    <li><a href="">Full</a></li>
+                    <li><a href="">Full XL</a></li>
+                    <li><a href="">Queen</a></li>
+                    <li><a href="">King</a></li>
+                    <li><a href="">California King</a></li>
+                </ul>
+              </li>
+              <li><a class="link2">Comfort<span><img class="blue1" alt="Blue" /></span></a>
+                <ul class="submenu2">
+                    <li><a href="">Firm</a></li>
+                    <li><a href="">Plush</a></li>
+                    <li><a href="">Pillow Top</a></li>
+                    <li><a href="">Contoured</a></li>
+                    <li><a href="">Extra Firm</a></li>
+                </ul>
+              </li>
+              <li><a class="link3">Type<span><img class="blue2" alt="Blue" /></span></a>
+                <ul class="submenu3">
+                    <li><a href="">Innerspring</a></li>
+                    <li><a href="">Memory Foam</a></li>
+                    <li><a href="">Gel Memory Foam</a></li>
+                    <li><a href="">Hybrid</a></li>
+                    <li><a href="">Pocketed Coil</a></li>
+                    <li><a href="">Euro Top</a></li>
+                </ul>
+              </li>
+              <li><a class="link4">Brand<span><img class="blue3" alt="Blue" /></span></a>
+                <ul class="submenu4">
+                    <li><a href="">Eclipse</a></li>
+                    <li><a href="">Simmons Beautyrest</a></li>
+                    <li><a href="">Hampton & Rhodes</a></li>
+                    <li><a href="">Dream Bed</a></li>
+                    <li><a href="">Classic Brands</a></li>
+                    <li><a href="">Serta</a></li>
+                    <li><a href="">Snuggle Home</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="link">Beds & Furniture<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu sub-style">
+              <li><a href="#">Bed Frames</a></li>
+              <li><a href="#">Adjustable Beds</a></li>
+              <li><a href="#">Sofas & Loveseats</a></li>
+              <li><a href="#">Leather Chairs & Ottomans</a></li>
+              <li><a href="#">Bed Sets & Headboards</a></li>
+              <li><a href="#">Bunk Beds</a></li>
+              <li><a href="#">Massage Chairs</a></li>
+              <li><a href="#">Shop by Brand</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="link"></i>Bed & Mattress accessories<i class="fa fa-chevron-down"></i></div>
+            <ul class="submenu sub-style">
+              <li><a href="#">Pillows</a></li>
+              <li><a href="#">Pillow Cases</a></li>
+              <li><a href="#">Bed Sheets</a></li>
+              <li><a href="#">Comforters</a></li>
+              <li><a href="#">Mattress Toppers</a></li>
+              <li><a href="#">Mattress Projectors</a></li>
+              <li><a href="#">Dog Beds</a></li>
+            </ul>
+          </li>
+          <li>
+            <div class="link"></i>Shop by brand<i class="fa fa-chevron-down sub-style"></i></div>
+            <ul class="submenu">
+            </ul>
+          </li>
+        </ul>
+    </div>
+
+    <!-- Locations block -->
+
+    <div class="locations">
+
+        <div class="container"> <!-- class=location-res -->
+
+            <h1>Store locations</h1>
+
+            <div class="row first-locator">
+                <div class="col-md-4 actives" data-locator="1">
+
+                    <div class="flacler mobile">
+                        <h2>Flagler location</h2>
+                        <span><img src="assets/images/active-locator.png" alt="Locator" /></span><ul class="ul-loc"><li>8242 West Flagler Street,</li><li>Miami, Fl, 33144, United State</li></ul>
+                        <div>
+                            <img class="tl" src="assets/images/ph.png" alt="Phone" /><span class="location-txt">(305) 960 - 7947</span>
+                        </div>
+                        <div class="letter">
+                            <img src="assets/images/let.png" alt="Letter" /><span class="location-txt">info@mattresskings.com</span>
+                        </div>
+                    </div>
+
+                    <div class="flacler desc">
+                        <h2>Flagler location</h2>
+                        <span><img src="assets/images/active-locator.png" alt="Locator" /></span><ul class="ul-loc"><li>8242 West Flagler Street,</li><li>Miami, Fl, 33144, United State</li></ul>
+                        <div>
+                            <img class="tl" src="assets/images/ph.png" alt="Phone" /><span class="location-txt">(305) 960 - 7947</span>
+                        </div>
+                        <div class="letter">
+                            <img src="assets/images/let.png" alt="Letter" /><span class="location-txt">info@mattresskings.com</span>
+                        </div>
+                    </div>
+                    <img src="assets/images/line.png" class="line-b">
+                </div>
+
+                <div class="col-md-4" data-locator="2">
+
+                <div class="flacler1 fl-w mobile">
+                        <h2>North Miami Beach Location</h2>
+                        <span><img src="assets/images/active-locator.png" alt="Locator" /></span><ul class="ul-loc"><li class="resize-s">14460, Biscayne Boulevard, North Miami</li><li>Beach, FL, 33181, United States</li></ul>
+                        <div>
+                            <img class="tl" src="assets/images/ph.png" alt="Phone" /><span class="location-txt">(305) 454 - 2070</span>
+                        </div>
+                        <div class="letter">
+                            <img src="assets/images/let.png" alt="Letter" /><span class="location-txt">info@mattresskings.com</span>
+                        </div>
+                    </div>
+
+                    <div class="flacler1 fl-w desc">
+                        <h2>North Miami Beach Location</h2>
+                        <span><img src="assets/images/no-act1.png" alt="Locator" /></span><ul class="ul-loc"><li class="resize-s">14460, Biscayne Boulevard, North Miami</li><li>Beach, FL, 33181, United States</li></ul>
+                        <div>
+                            <img class="tl" src="assets/images/no-act2.png" alt="Phone" /><span class="location-txt">(305) 454 - 2070</span>
+                        </div>
+                        <div class="letter">
+                            <img src="assets/images/no-act3.png" alt="Letter" /><span class="location-txt">info@mattresskings.com</span>
+                        </div>
+                    </div>
+					
+					<img src="assets/images/line.png" class="line-b">
+                </div>
+
+                <div class="col-md-4"  data-locator="3">
+
+                <div class="flacler1 pad desc">
+                        <h2>Cutter bay location</h2>
+                        <span><img src="assets/images/no-act1.png" alt="Locator" /></span><ul class="ul-loc"><li>19145 S Dixie Hwy, Cutler Bay,</li><li>FL, 33157, United States</li></ul>
+                        <div>
+                            <img class="tl" src="assets/images/no-act2.png" alt="Phone" /><span class="location-txt">(786) 776 - 0156</span>
+                        </div>
+                        <div class="letter">
+                            <img src="assets/images/no-act3.png" alt="Letter" /><span class="location-txt">info@mattresskings.com</span>
+                        </div>
+                    </div>
+
+                    <div class="flacler1 pad mobile">
+                        <h2>Cutter bay location</h2>
+                        <span><img src="assets/images/active-locator.png" alt="Locator" /></span><ul class="ul-loc"><li>19145 S Dixie Hwy, Cutler Bay,</li><li>FL, 33157, United States</li></ul>
+                        <div>
+                            <img class="tl" src="assets/images/ph.png" alt="Phone" /><span class="location-txt">(786) 776 - 0156</span>
+                        </div>
+                        <div class="letter">
+                            <img src="assets/images/let.png" alt="Letter" /><span class="location-txt">info@mattresskings.com</span>
+                        </div>
+                    </div>
+					
+					<img src="assets/images/line.png" class="line-b">
+                </div>
+
+            </div>  
+
+        </div>
+
+    </div>
+
+    <div class="container">
+         <div class="cart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.0532025711414!2d-80.32986742688676!3d25.7688062012836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b903ac52ad3d%3A0x5f44e2d0f43885ec!2zODI0MiBXIEZsYWdsZXIgU3QsIE1pYW1pLCBGTCAzMzE0NCwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1492800257419" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen zoom="50" class="map-locator locator-1"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.0532025711414!2d-80.32986742688676!3d25.7688062012836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b903ac52ad3d%3A0x5f44e2d0f43885ec!2zODI0MiBXIEZsYWdsZXIgU3QsIE1pYW1pLCBGTCAzMzE0NCwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1492800257419" width="100%" height="500" frameborder="0" style="border:0;display:none;" allowfullscreen zoom="50" class="map-locator locator-2"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3593.0532025711414!2d-80.32986742688676!3d25.7688062012836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b903ac52ad3d%3A0x5f44e2d0f43885ec!2zODI0MiBXIEZsYWdsZXIgU3QsIE1pYW1pLCBGTCAzMzE0NCwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1492800257419" width="100%" height="500" frameborder="0" style="border:0;display:none;" allowfullscreen zoom="50" class="map-locator locator-3"></iframe>
+         </div>
+    </div>
+
+
+        <!-- Header -->
+         <!-- Header -->
+                  <header id="topnav">
+
+                      <div class="container-menu ">
+
+                          <div class="row menu-block">
+
+                              <div class="col-md-2">
+
+                                  <a href="index.html" class="logo">
+                                      <div class="header-logo"></div>
+                                  </a>
+
+                              </div>
+
+                              <div class="col-md-10">
+
+                                  <ul class="menu">
+
+                                      <li>
+                                          <a href="" class="head-list">Mattresses</a>
+
+                                          <ul class="drop-beds" style="height: 330px;">
+                                              <div>
+                                                  <li class="head-txt">
+                                                      <p>Size</p>
+                                                  </li>
+                                              </div>
+                                              <li class="style-active1">
+                                                  <div>
+                                                      <a class="hov-link1" href="#">Twin</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active2">
+                                                  <div>
+                                                      <a class="hov-link2" href="#">Twin XL</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active3">
+                                                  <div>
+                                                      <a class="hov-link3" href="#">Full</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active4">
+                                                  <div>
+                                                      <a class="hov-link4" href="#">Full XL</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active5">
+                                                  <div>
+                                                      <a class="hov-link5" href="#">Queen</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active6">
+                                                  <div>
+                                                      <a class="hov-link6" href="#">King</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active7">
+                                                  <div>
+                                                      <a class="hov-link7" href="#">California King</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+
+                                          <ul class="drop-beds1" style="margin-left: 170px; height: 330px;">
+                                                  <div>
+                                                      <li class="head-txt">
+                                                          <p>Comfort</p>
+                                                      </li>
+                                                  </div>
+                                              <li class="style-active8">
+                                                  <div>
+                                                      <a class="hov-link8" href="#">Firm</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active9">
+                                                  <div>
+                                                      <a class="hov-link9" href="#">Plush</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active10">
+                                                  <div>
+                                                      <a class="hov-link10" href="#">Pillow Top</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active11">
+                                                  <div>
+                                                      <a class="hov-link11" href="#">Contoured</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active12">
+                                                  <div>
+                                                      <a class="hov-link12" href="#">Extra Firm</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+
+                                          <ul class="drop-beds1" style="margin-left: 340px; height: 330px;">
+                                              <div>
+                                                  <li class="head-txt">
+                                                      <p>Type</p>
+                                                  </li>
+                                              </div>
+                                              <li class="style-active13">
+                                                  <div>
+                                                      <a class="hov-link13" href="#">Innerspring</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active14">
+                                                  <div>
+                                                      <a class="hov-link14" href="#">Memory Foam</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active15">
+                                                  <div>
+                                                      <a class="hov-link15" href="#">Gel Memory Foam</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active16">
+                                                  <div>
+                                                      <a class="hov-link16" href="#">Hybrid</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active17">
+                                                  <div>
+                                                      <a class="hov-link17" href="#">Pocketed Coil</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active18">
+                                                  <div>
+                                                      <a class="hov-link18" href="#">Euro Top</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+
+                                          <ul class="drop-beds1" style="margin-left: 510px; height: 330px;">
+                                              <div>
+                                                  <li class="head-txt">
+                                                      <p>Brand</p>
+                                                  </li>
+                                              </div>
+                                              <li class="style-active19">
+                                                  <div>
+                                                      <a class="hov-link19" href="#">Eclipse</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active20">
+                                                  <div>
+                                                      <a class="hov-link20" href="#">Simmons Beautyrest</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active21">
+                                                  <div>
+                                                      <a class="hov-link21" href="#">Hampton & Rhodes</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active22">
+                                                  <div>
+                                                      <a class="hov-link22" href="#">Dream Bed</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active23">
+                                                  <div>
+                                                      <a class="hov-link23" href="#">Classic Brands</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active24">
+                                                  <div>
+                                                      <a class="hov-link24" href="#">Serta</a>
+                                                  </div>
+                                              </li>
+                                              <li class="style-active25">
+                                                  <div>
+                                                      <a class="hov-link25" href="#">Snuggle Home</a>
+                                                  </div>
+                                              </li>
+                                          </ul>
+                                      </li>
+
+                                      <li>
+                                <a href="" class="head-list">Beds & Furniture</a>
+                                <ul class="drop-beds-f" style="height: 330px;">
+                                    <li class="style-active8">
+                                        <div>
+                                            <a class="hov-link8" href="">Bed Frames</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active1">
+                                        <div>
+                                            <a class="hov-link1" href="#">Adjustable Beds</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active2">
+                                        <div>
+                                            <a class="hov-link2" href="#">Sofas & Loveseats</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active3">
+                                        <div>
+                                            <a class="hov-link3" href="#">Leather Chairs & Ottomans</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active4">
+                                        <div>
+                                            <a class="hov-link4" href="#">Bed Sets & Headboards</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active5">
+                                        <div>
+                                            <a class="hov-link5" href="#">Bunk Beds</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active6">
+                                        <div>
+                                            <a class="hov-link6" href="#">Massage Chairs</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active7">
+                                        <div class="shop-brand">
+                                            <a class="hov-link7" href="#">Shop by Brand</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+
+                                <li>
+                                <a href="" class="head-list">Bed & Mattress accessories</a>
+                                 <ul class="drop-beds-f" style="height: 330px;">
+                                    <li class="style-active8">
+                                        <div>
+                                            <a class="hov-link8" href="">Pillows</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active1">
+                                        <div>
+                                            <a class="hov-link1" href="#">Pillow Cases</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active2">
+                                        <div>
+                                            <a class="hov-link2" href="#">Bed Sheets</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active3">
+                                        <div>
+                                            <a class="hov-link3" href="#">Comforters</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active4">
+                                        <div>
+                                            <a class="hov-link4" href="#">Mattress Toppers</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active5">
+                                        <div>
+                                            <a class="hov-link5" href="#">Mattress Projectors</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active6">
+                                        <div>
+                                            <a class="hov-link6" href="#">Dog Beds</a>
+                                        </div>
+                                    </li>
+                                    <li class="style-active"></li>
+                                </ul>
+                            </li>
+
+                                      <li>
+                                          <a href="" class="head-list">Shop by brand</a>
+                                      </li>
+
+                                      <li class="phone">
+                                          <a href="" class="head-list"><span><img class="phone-img" alt="Phone" /></span>877-348-2998</a>
+                                      </li>
+
+                                      <li>
+                                          <a href="locator.html" class="head-list">Store Locator</a>
+                                      </li>
+
+                                      <li>
+                                          <a href="" class="head-list">Sign In</a>
+                                      </li>
+
+                                      <li class="search">
+                                          <a href=""><img class="search-img" alt="Search" /></a>
+                                          <ul class="pop-search" style="height: 330px;">
+                                              <div class="row" style="margin-bottom: -45px;">
+                                                  <div class="col-md-8">
+                                                     <input type="email" name="" placeholder="Type here" />
+                                                  </div>
+                                                  <div class="col-md-4">
+                                                      <button>Search</button>
+                                                  </div>
+                                              </div>
+                                          </ul>
+                                      </li>
+
+                                      <li class="buy">
+                                          <img class="buy-img" alt="Buy" />
+                                          <div class="buy-txt">10</div>
+                                      </li>
+
+                                  </ul>
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </header>
+
+        <!-- Great service block -->
+        <div class="container container-service">
+
+            <div class="row service">
+                <div class="col-md-12">
+                    <h1>Great service for great sleep</h1>
+                </div>
+            </div>
+
+            <div class="row block-service">
+                <div class="col-md-4">
+                    <img class="car" src="assets/images/car.png" alt="Car" />
+                    <h1>Red carpet delivery</h1>
+                    <p>Guaranteed Dream Team Delivery<sup>TM</sup> Service</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="col-md-4">
+                    <img class="money" src="assets/images/money.png" alt="Money" />
+                    <h1>Sleep happy or your money back</h1>
+                    <p>Comfort, Service and Price</p>
+                    <button>Learn more</button>
+                </div>
+                <div class="col-md-4">
+                    <img class="dollar" src="assets/images/dollar.png" alt="Dollar" />
+                    <h1>Sleep happy or your money back</h1>
+                    <p>Comfort, Service and Price</p>
+                    <button>Learn more</button>
+                </div>
+            </div>
+
+        </div>
+
+       <!-- Looking block -->
+        <div class="looking-loc">
+            <h1>Looking for the ‘perfect mattress’?</h1>
+            <p>Relax and use our interactive Mattress Finder It's so easy, you can do it in your sleep.</p>
+            <button id="look5">Learn more<span><img class="no-hover5" src="assets/images/button.png" alt="d" /></span> <span><img class="hover5" src="assets/images/hover.png" alt="f" /></span> </button>
+            <img src="assets/images/bed-dex.png" alt="Bed" class="bed-dex" />
+        </div>
+
+         <!-- Subscribe block -->
+        <div class="subscribe">
+
+            <img src="assets/images/subscribe.png" alt="Subscribe" />
+            <h1>Subscribe to our Newsletter</h1>
+
+            <div class="container-centr">
+
+            <div class="row mail">
+                <div class="col-md-7">
+                    <input type="email" name="" placeholder="Email Address:" />
+                </div>
+                <div class="col-md-5">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+            </div>
+
+        </div>
+
+        <!-- Footer top -->
+        <div class="pre-footer">
+            <div class="container-footer">
+                <div class="row block-footer">
+                   <div class="col-md-3 mobile-no">
+                       <img src="assets/images/logo.png" alt="Logo" class="logo-footer" />
+                       <select>
+                           <option>English</option>
+                       </select>
+                   </div>
+                   <div class="col-md-3">
+                       <ul class="footer-ul">
+                           <li class="company-footer"><a href="">Company</a></li>
+                           <li><a href="">About Nattress Kings</a></li>
+                           <li><a href="">Financing Options</a></li>
+                           <li><a href="">Careers</a></li>
+                           <li><a href="">MK Blog</a></li>
+                           <li><a href="">In the News</a></li>
+                           <li><a href="">How to Buy a Mattress</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-md-3">
+                       <ul class="footer-ul">
+                           <li class="company-footer serv"><a href="">Customer service</a></li>
+                           <li><a href="">Contact Us</a></li>
+                           <li><a href="">Customer Support</a></li>
+                           <li><a href="">Warrantly Claims</a></li>
+                           <li><a href="">Delivery Tracking</a></li>
+                           <li><a href="">Terms & Privacy</a></li>
+                           <li><a href="">FAQ</a></li>
+                       </ul>
+                   </div>
+                   <div class="col-md-3">
+                       <ul class="footer-ul padding-row">
+                           <li class="company-footer serv"><a href="">Connect with us</a></li>
+                           <li><a href=""><span><img src="assets/images/mk.png" alt="MK" /></span>MK Blog</a></li>
+                           <li><a href=""><span><img src="assets/images/twitter.png" alt="Twitter" /></span>Twitter</a></li>
+                           <li><a href=""><span><img src="assets/images/facebook.png" alt="Facebook" /></span>Facebook</a></li>
+                           <li><a href=""><span><img src="assets/images/google.png" alt="Google" /></span>Google +</a></li>
+                           <li><a href=""><span><img src="assets/images/youtube.png" alt="YouTube" /></span>YouTube</a></li>
+                           <li><a href=""><span><img src="assets/images/instagram.png" alt="Instagram" /></span>Instagram</a></li>
+                           <li><a href=""><span><img src="assets/images/livechat.png" alt="LiveChat" /></span>Live Chat</a></li>
+                       </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer down -->
+        <div class="footer">
+            <p>® 2017 - Mattress Kings. All rights reserved.</p>
+        </div>
+
+        <!-- Script for open/close mobile menu -->
+        <script type="text/javascript">
+            $(".toggleBtn").click(function () {
+                $("#menu").addClass("show");    
+            });
+            $(".close-menu").click(function () {
+                $("#menu").removeClass("show");
+            });
+        </script>
+        <script type="text/javascript">
+            $(".link1").click(function () {
+                $(".blue").addClass("activeo");    
+            });
+             $(".link2").click(function () {
+                $(".blue1").addClass("activeo");    
+            });
+             $(".link3").click(function () {
+                $(".blue2").addClass("activeo");    
+            });
+             $(".link4").click(function () {
+                $(".blue3").addClass("activeo");    
+            });
+        </script>
+
+    </body>
+
+</html>
