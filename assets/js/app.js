@@ -310,11 +310,13 @@ $(document).ready(function () {
   $('.catalog-quantity-items-btn.small-items').click(function () {
       $('.catalog-quantity-items-btn.big-items').removeClass('active');
       $('.catalog-quantity-items-btn.small-items').addClass('active');
+      $('.product-items').addClass('product-items-small-active');
   });
 
     $('.catalog-quantity-items-btn.big-items').click(function () {
         $('.catalog-quantity-items-btn.small-items').removeClass('active');
         $('.catalog-quantity-items-btn.big-items').addClass('active');
+        $('.product-items').removeClass('product-items-small-active');
     });
 
 });
