@@ -302,4 +302,19 @@ $(document).ready(function () {
         $(".style-active25").mouseout(function () {
         $(".hov-link25").css("color", "#000000");
     });                                         
-});   
+});
+
+/* Script for change the size of the goods */
+$(document).ready(function () {
+
+  $('.catalog-quantity-items-btn.small-items').click(function () {
+      $('.catalog-quantity-items-btn.big-items').removeClass('active');
+      $('.catalog-quantity-items-btn.small-items').addClass('active');
+  });
+
+    $('.catalog-quantity-items-btn.big-items').click(function () {
+        $('.catalog-quantity-items-btn.small-items').removeClass('active');
+        $('.catalog-quantity-items-btn.big-items').addClass('active');
+    });
+
+});
